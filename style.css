@@ -1,0 +1,133 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('html/style/assets/background.jpg');
+    background-color: #b9b7b7;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteúdo principal */
+.content {
+    background-color: rgba(7, 7, 7, 0.92);
+    border-radius: 35px;
+    box-shadow: 1px 2px 3px 2px #3b3b3b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    font-size: 44px;
+    color: #f7f7f7;
+}
+
+h2 {
+    font-size: 18px;
+    color: #fffefe;
+}
+
+h3 {
+    background-color: rgba(0, 0, 0, 0.797);
+    color: white;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Botão "Iniciar" */
+b {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 30px;
+    margin: 20px auto;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: background-color 0.7s;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+b:hover {
+    background-color: #e6eaef;
+    color: #007BFF;
+}
+
+/* Estilos para o formulário */
+form {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o container de áudio */
+.audio {
+    text-align: center;
+    background-color: #070707;
+    padding: 20px;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+}
+
+/* Estilos para o elemento de áudio */
+#audioPlayer {
+    width: 100%;
+}
+
+/* Estilos para os botões Play e Pause */
+button {
+    background-color: transparent;
+    color: #1db954; /* Cor verde semelhante ao Spotify */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%; /* Deixa os botões redondos */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+button:hover {
+    background-color: rgba(29, 185, 84, 0.1); /* Cor de fundo ao passar o mouse, um verde claro */
+}
+
+
+/* Estilos para a barra de busca (seek bar) */
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}

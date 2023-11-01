@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Primeira Pergunta</title>
+    <link rel="stylesheet" type="text/css" href="style/secund.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Quiz Etica na tecnologia</h1>
+        <h2>Qual é um dos principais desafios éticos relacionados à privacidade de dados na era digital?</h2>
+    </div>
+    
+    <form>
+        <label>
+            <input type="radio" name="resposta" value="a"> a) Coletar dados indiscriminadamente
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="b"> b) Respeitar os direitos de privacidade dos usuários
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="c"> c) Vender dados sem consentimento
+        </label><br>
+        <label>
+            <input type="radio" name="resposta" value="d"> d) Não coletar dados de forma alguma
+        </label><br>
+        
+        <input type="submit" value="Responder">
+    </form>
+    <div class="audio">
+        <audio id="meuAudio" src="style/assets/SnapInsta.io - 18 Facas na Mão - Ninja - 18 facadas no 5º vigia 🔪😳 (só os fortes compreenderão) _ Costa Beats (256 kbps).mp3" controls></audio>
+        <div>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <input id="seek" type="range" min="0" value="0">
+        </div>
+    </div>
+    <script src="js/controles-audio.js"></script>
+</body>
+</html>
