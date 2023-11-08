@@ -1,0 +1,128 @@
+/* Estilos para o jogo Tetris */
+
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('/FEITEC-LIST/L3/html/style/assets/background.jpg');
+    background-color: #333;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .score {
+    color: #fff;
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
+  #restart-button {
+    padding: 10px 20px;
+    background-color: #6dcff6;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #restart-button:hover {
+    background-color: #4ca3cc;
+  }
+  
+  .game-board {
+    width: 300px;
+    height: 600px;
+    border: 2px solid #333;
+    background-color: #000;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1px;
+    position: relative;
+  }
+  
+  .block {
+    background-color: transparent;
+    border: 1px solid #333;
+  }
+  
+  .next-piece {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    background-color: #000;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+  }
+  
+  /* Estilize as peças de Tetris */
+  .tetromino {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+  }
+  
+  .tetromino .block {
+    background-color: transparent;
+    border: 1px solid #333;
+  }
+  
+  /* Adicione estilos de cores diferentes para cada tipo de peça */
+  .tetromino.I {
+    background-color: #6dcff6;
+  }
+  
+  .tetromino.J {
+    background-color: #6f58b0;
+  }
+  
+  .tetromino.L {
+    background-color: #f9941e;
+  }
+  
+  .tetromino.O {
+    background-color: #ffdf00;
+  }
+  
+  .tetromino.S {
+    background-color: #2ecc71;
+  }
+  
+  .tetromino.T {
+    background-color: #9b59b6;
+  }
+  
+  .tetromino.Z {
+    background-color: #e74c3c;
+  }
+  

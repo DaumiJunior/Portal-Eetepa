@@ -1,47 +1,58 @@
-/* Estilos gerais */
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li, b {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('html/style/assets/background.jpg');
     background-color: #b9b7b7;
     background-repeat: repeat;
-    margin: 0;
-    padding: 0;
 }
-
-/* Conteúdo principal */
-.content {
-    background-color: rgba(7, 7, 7, 0.92);
-    border-radius: 35px;
-    box-shadow: 1px 2px 3px 2px #3b3b3b;
+.card1{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #fff;
-    padding: 10px;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
 }
 
-/* Títulos */
+/* Content container */
+.content {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Main titles */
 h1 {
-    font-size: 44px;
-    color: #f7f7f7;
+    font-size: 56px;
+    color: #015dbe;
+    padding: 20px;
+    margin: 20px;
 }
 
 h2 {
-    font-size: 18px;
-    color: #fffefe;
+    font-size: 20px;
+    color: #fff;
 }
-
 h3 {
-    background-color: rgba(0, 0, 0, 0.797);
-    color: white;
-    border-radius: 15px;
-    font-size: 25px;
-    padding: 20px;
-    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px;
 }
 
-/* Botão "Iniciar" */
+
 b {
     display: inline-block;
-    background-color: #007BFF;
+    background-color: #044891;
     color: #fff;
     padding: 12px 30px;
     margin: 20px auto;
@@ -50,84 +61,62 @@ b {
     border: none;
     border-radius: 15px;
     text-transform: uppercase;
-    transition: background-color 0.7s;
+    transition: background-color 0.3s;
     font-weight: bold;
     font-size: 16px;
-    text-align: center;
-    text-decoration: none;
 }
 
 b:hover {
-    background-color: #e6eaef;
-    color: #007BFF;
+    background-color: #0056b3;
 }
 
-/* Estilos para o formulário */
-form {
-    background: rgba(255, 255, 255, 0.8);
+
+/* Cards container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Cards */
+.card-container .class4 {
+    background-color: #000203ba;
+    color: #fff;
+    width: 30%; /* Adjust the width as needed */
+    height: 200px;
     border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Audio container */
+.audio {
+    text-align: center;
+    background-color: #000;
     padding: 20px;
-    margin: 20px;
-    text-align: left;
+    border-radius: 10px;
 }
 
-label {
-    display: block;
-    margin: 10px 0;
+/* Audio player */
+audio#audioPlayer {
+    width: 100%;
 }
 
-input[type="radio"] {
-    margin-right: 10px;
-}
-
-input[type="submit"] {
-    background-color: #007bff;
+/* Audio controls */
+.audio button {
+    background-color: #007BFF;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-/* Estilos para o container de áudio */
-.audio {
-    text-align: center;
-    background-color: #070707;
-    padding: 20px;
-    border: 1px solid #1e1e1e;
-    border-radius: 5px;
-}
-
-/* Estilos para o elemento de áudio */
-#audioPlayer {
-    width: 100%;
-}
-
-/* Estilos para os botões Play e Pause */
-button {
-    background-color: transparent;
-    color: #1db954; /* Cor verde semelhante ao Spotify */
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 50%; /* Deixa os botões redondos */
+    margin: 10px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
-    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    text-transform: uppercase;
 }
 
-button:hover {
-    background-color: rgba(29, 185, 84, 0.1); /* Cor de fundo ao passar o mouse, um verde claro */
-}
-
-
-/* Estilos para a barra de busca (seek bar) */
-input[type="range"] {
-    width: 100%;
-    margin: 10px 0;
+.audio button:hover {
+    background-color: #0056b3;
 }

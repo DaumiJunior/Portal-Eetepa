@@ -1,50 +1,51 @@
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    background: #b9b7b7 url('assets/background.jpg') repeat;
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li, b {
     margin: 0;
     padding: 0;
 }
 
-/* Estilo para o cabeçalho */
-.head {
-    background-color: #000;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/background.jpg') repeat;
+    background-color: #b9b7b7;
 }
 
-/* Estilo para o conteúdo principal */
+/* Content container */
+.head {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Main titles */
 h1 {
     font-size: 36px;
-    text-align: center;
-    margin-top: 20px;
-    color: #fff;
+    color: #015dbe;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 h2 {
-    font-size: 24px;
-    text-align: center;
+    font-size: 18px;
     color: #fff;
 }
 
-/* Estilos para o formulário */
+/* Form styles */
 form {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
     text-align: left;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 label {
-    background-color: #aeaaaa80;
     display: block;
     margin: 10px 0;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 input[type="radio"] {
@@ -58,42 +59,49 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para o container de áudio */
+/* Audio container */
 .audio {
     text-align: center;
     background: #000;
-    border-radius: 20px;
-    padding: 50px;
-    border: 1px solid #1e1e1e;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Estilos para o elemento de áudio */
-#audioPlayer {
+/* Audio player */
+audio#meuAudio {
     width: 100%;
 }
 
-/* Estilos para os botões Play e Pause */
-button {
-    background-color: #0044ff;
+/* Audio controls */
+.audio button {
+    background-color: #007BFF;
     color: #fff;
-    border: none;
     padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pontos {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077B6; /* Cor do texto (você pode ajustar essa cor) */
+    text-align: center; /* Alinhar o texto ao centro, se desejar */
+    margin-top: 10px; /* Espaço superior */
+  }
+.audio button:hover {
+    background-color: #0056b3;
 }
 
-button:hover {
-    background-color: #000;
-}
+/* Add styles for other elements as needed */
