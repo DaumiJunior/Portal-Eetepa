@@ -29,7 +29,7 @@ O Portal EETEPA é uma plataforma online projetada para facilitar a comunicaçã
 
 ## Suporte Técnico
 
-Se você encontrar problemas técnicos ou tiver dúvidas sobre o uso da plataforma, entre em contato com o suporte técnico através do seguinte endereço de e-mail: [suporte@eetepa.edu.br](mailto:daumigamerjr@gmail.coms).
+Se você encontrar problemas técnicos ou tiver dúvidas sobre o uso da plataforma, entre em contato com o suporte técnico através do seguinte endereço de e-mail: [daumifreire401@gmail.com](mailto:daumifreire401.com).
 
 ## Contribuições
 
