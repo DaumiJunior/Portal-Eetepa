@@ -2,10 +2,10 @@
     // Definir as respostas corretas para cada pergunta
     const respostasCorretas = {
         resposta1: 'b',
-        resposta2: 'b',
-        resposta3: 'c',
-        resposta4: 'c',
-        resposta5: 'c'
+        resposta2: 'c',
+        resposta3: 'd',
+        resposta4: 'b',
+        resposta5: 'b'
     };
 
     

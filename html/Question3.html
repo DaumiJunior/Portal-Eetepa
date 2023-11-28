@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Edificações</title>
+    <link rel="stylesheet" type="text/css" href="style/secund.css">
+</head>
+
+<header style="background-color: #343a40; color: white; text-align: center; padding: 20px;">
+    <img class="logo" src="style/assets/logo_eetepa.png" alt="Logo EETEPA" srcset="">
+    <h1>Portal EETEPA</h1>
+</header>
+
+<nav class="hotbar">
+    <a href="/Quiz/quizP1.html" onclick="highlightLink(this)">Home</a>
+    <a href="#" onclick="showCategoriasDropdown()">Cursos</a>
+    <div id="categoriasDropdown">
+        <a href="#">Cursos Técnicos</a>
+        <a href="/Quiz/informatica.html">Informatica(Ti)</a>
+        <a href="/Quiz/mineração.html">Mineração</a>
+        <a href="/Quiz/agropecuaria.html">Agropecuaria</a>
+        <a href="/Quiz/edificações.html">Edificações</a>
+        <a href="/Quiz/redecom.html">Rede de computadores</a>
+        <a href="/Quiz/manucom.html">Manutenção de computadores</a>
+    </div>
+    <a class="here" href="/Quiz/quiz.html" onclick="highlightLink(this)">Quiz</a>
+    <a href="/Quiz/forum.html" onclick="highlightLink(this)">Aluno Sessão</a>
+    <a href="https://app.proesc.com/boletim" onclick="highlightLink(this)">Boletim Online</a>
+    <a href="https://github.com/DaumiJunior/Quiz" onclick="highlightLink(this)">Sobre</a>
+</nav>
+
+<body>
+    <p class="pontos"></p>
+
+    <!-- Question 1 -->
+    <div class="box1">
+        <div class="head">
+            <h2>Curso Técnico em Edificações</h2>
+            <h3>O que significa a sigla "CPI" na construção civil?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta1" value="a"> a) Controle de Produção Integrado
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="b"> b) Custo por Início
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="c"> c) Comissão de Projeto de Interiores
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="d"> d) Compatibilidade de Projetos de Instalações
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="box2">
+        <div class="head">
+            <h3>Qual é a função principal de um arquiteto na construção civil?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta2" value="a"> a) Execução de obras e serviços
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="b"> b) Elaboração de projetos arquitetônicos
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="c"> c) Controle de qualidade de materiais
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="d"> d) Gerenciamento de recursos humanos
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="box3">
+        <div class="head">
+            <h3>O que significa "Canteiro de Obras" na construção civil?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta3" value="a"> a) Local onde são armazenados os materiais
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="b"> b) Área destinada ao descarte de resíduos
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="c"> c) Espaço para refeitório dos trabalhadores
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="d"> d) Área onde ocorrem as atividades de construção
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="box4">
+        <div class="head">
+            <h3>O que é um "Projeto Hidrossanitário" em edificações?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta4" value="a"> a) Projeto elétrico para sistemas hidráulicos
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="b"> b) Projeto de prevenção contra incêndios
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="c"> c) Projeto de instalações hidráulicas e sanitárias
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="d"> d) Projeto estrutural para fundações
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="box5">
+        <div class="head">
+            <h3>O que é "Topografia" e qual é sua importância na construção civil?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta5" value="a"> a) Estudo das rochas usadas na construção
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="b"> b) Medição e representação gráfica do relevo de uma área
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="c"> c) Projeto de estruturas metálicas
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="d"> d) Cálculos para dimensionamento de vigas e pilares
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="audio">
+        <audio id="meuAudio" src="style/assets/SnapInsta.io - 18 Facas na Mão - Ninja - 18 facadas no 5º vigia 🔪😳 (só os fortes compreenderão) _ Costa Beats (256 kbps).mp3" controls></audio>
+        <div>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <input id="seek" type="range" min="0" value="0">
+        </div>
+    </div>
+
+    <script src="js/controles-audio.js"></script>
+    <script src="js/points2.js"></script>
+    <script src="/Quiz/all.js"></script>
+</body>
+
+</html>

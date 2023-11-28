@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Rede de Computadores</title>
+    <link rel="stylesheet" type="text/css" href="style/secund.css">
+</head>
+
+<header style="background-color: #343a40; color: white; text-align: center; padding: 20px;">
+    <img class="logo" src="style/assets/logo_eetepa.png" alt="Logo EETEPA" srcset="">
+    <h1>Portal EETEPA</h1>
+</header>
+
+<nav class="hotbar">
+    <a href="/Quiz/quizP1.html" onclick="highlightLink(this)">Home</a>
+    <a href="#" onclick="showCategoriasDropdown()">Cursos</a>
+    <div id="categoriasDropdown">
+        <a href="#">Cursos Técnicos</a>
+        <a href="/Quiz/informatica.html">Informatica(Ti)</a>
+        <a href="/Quiz/mineração.html">Mineração</a>
+        <a href="/Quiz/agropecuaria.html">Agropecuaria</a>
+        <a href="/Quiz/edificações.html">Edificações</a>
+        <a href="/Quiz/redecom.html">Rede de computadores</a>
+        <a href="/Quiz/manucom.html">Manutenção de computadores</a>
+    </div>
+    <a class="here" href="/Quiz/quiz.html" onclick="highlightLink(this)">Quiz</a>
+    <a href="/Quiz/forum.html" onclick="highlightLink(this)">Aluno Sessão</a>
+    <a href="https://app.proesc.com/boletim" onclick="highlightLink(this)">Boletim Online</a>
+    <a href="https://github.com/DaumiJunior/Quiz" onclick="highlightLink(this)">Sobre</a>
+</nav>
+
+<body>
+    <p class="pontos"></p>
+
+    <!-- Question 1 -->
+    <div class="box1">
+        <div class="head">
+            <h2>Curso Técnico em Rede de Computadores</h2>
+            <h3>O que significa a sigla "TCP/IP" em redes de computadores?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta1" value="a"> a) Transmission Control Protocol/Internet Protocol
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="b"> b) Total Control Process/Internet Port
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="c"> c) Technical Control Panel/Internet Port
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="d"> d) Transfer Control Panel/Internet Process
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="box2">
+        <div class="head">
+            <h3>O que é um endereço IP?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta2" value="a"> a) Um identificador único para dispositivos de rede
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="b"> b) Um cabo de conexão de alta velocidade
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="c"> c) Um software de segurança de rede
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="d"> d) Um protocolo de transferência de arquivos
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="box3">
+        <div class="head">
+            <h3>O que é um switch em uma rede de computadores?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta3" value="a"> a) Um dispositivo para conectar redes distintas
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="b"> b) Um dispositivo de armazenamento em nuvem
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="c"> c) Um equipamento para interligar dispositivos na mesma rede
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="d"> d) Um protocolo de comunicação sem fio
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="box4">
+        <div class="head">
+            <h3>O que é um servidor DHCP?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta4" value="a"> a) Um servidor de hospedagem de sites
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="b"> b) Um servidor de segurança de rede
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="c"> c) Um servidor responsável por atribuir endereços IP automaticamente
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="d"> d) Um software de backup de dados
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="box5">
+        <div class="head">
+            <h3>O que é um ataque de negação de serviço (DDoS) em redes?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta5" value="a"> a) Um ataque que visa roubar informações confidenciais
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="b"> b) Um ataque que visa tornar um serviço indisponível
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="c"> c) Um ataque que visa alterar dados em trânsito
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="d"> d) Um ataque que visa infiltrar malware em uma rede
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="audio">
+        <audio id="meuAudio" src="style/assets/SnapInsta.io - 18 Facas na Mão - Ninja - 18 facadas no 5º vigia 🔪😳 (só os fortes compreenderão) _ Costa Beats (256 kbps).mp3" controls></audio>
+        <div>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <input id="seek" type="range" min="0" value="0">
+        </div>
+    </div>
+
+    <script src="js/controles-audio.js"></script>
+    <script src="js/points3.js"></script>
+    <script src="/Quiz/all.js"></script>
+</body>
+
+</html>

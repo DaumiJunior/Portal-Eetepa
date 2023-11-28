@@ -1,60 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz da FeiTec</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portal eetepa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="content">
-        <h1>Explorando o autodidatismo na era moderna</h1>
-        <h2>Descubra a importância do autodidatismo e seu impacto na aprendizagem na era contemporânea.</h2>
-    </div>
-    <b id="snake">jogo da cobrinha</b>
-    <b id="1A2">Iniciar</b>
-    
-    <div class="card1">
-        <h3>O autodidatismo é a prática de aprender por conta própria, muitas vezes usando recursos online e materiais de aprendizagem disponíveis na internet.</h3>
-    </div>
-    
-    <div class="card-container">
-        <div class="class4">
-            <h3>A Importância do Autodidatismo na Era Moderna:</h3>
-            No cenário atual, onde o conhecimento evolui rapidamente, o autodidatismo se tornou uma habilidade crucial. Descubra como o aprendizado autônomo permite que as pessoas se adaptem às mudanças, explorem novos campos e aprimorem suas competências de maneira contínua.
+    <header style="background-color: #343a40; color: white; text-align: center; padding: 20px;">
+        <img class="logo" src="html/style/assets/logo_eetepa.png" alt="" srcset="">
+        <h1>Portal EETEPA</h1>
+        <h2><div id="message"></div></h2>
+
+
+    </header>
+    <nav class="hotbar">
+        <a class="here" href="quizP1.html" onclick="highlightLink(this)">Home</a>
+        <a href="#" onclick="showCategoriasDropdown()">Cursos</a>
+        <div id="categoriasDropdown">
+            <a href="#">Cursos Técnicos</a>
+            <a href="informatica.html">Informatica(Ti)</a>
+            <a href="mineração.html">Mineração</a>
+            <a href="agropecuaria.html">Agropecuaria</a>
+            <a href="edificações.html">Edificações</a>
+            <a href="redecom.html">Rede de computadores</a>
+            <a href="manucom.html">Manutenção de computadores</a>
         </div>
-        <div class="class4">
-            <h3>Recursos para o Autodidata Moderno:</h3>
-            Na era digital, os autodidatas têm acesso a uma vasta gama de recursos. Explore plataformas de ensino online, tutoriais em vídeo, livros eletrônicos e comunidades de aprendizado que capacitam indivíduos a buscar conhecimento por conta própria.
+        <a href="quiz.html" onclick="highlightLink(this)">Quiz</a>
+        <a href="forum.html" onclick="highlightLink(this)">aluno sessão</a>
+        <a href="https://app.proesc.com/boletim" onclick="highlightLink(this)">Boletim Online</a>
+        <a href="https://github.com/DaumiJunior/Quiz" onclick="highlightLink(this)">Sobre</a>
+    </nav>
+    <div class="container">
+        <div class="blog-container" id="blogContainer">
+            <!-- Blog Cards -->
         </div>
-        <div class="class4">
-            <h3>O Autodidatismo no Ambiente Profissional:</h3>
-            O autodidatismo não se limita à aprendizagem acadêmica. Muitos profissionais adotam a abordagem autodidata para se manterem atualizados em suas áreas e adquirirem novas habilidades. Descubra como essa prática impacta a carreira e a inovação no local de trabalho.
-        </div>
-        <div class="class4">
-            <h3>Desafios do Autodidatismo:</h3>
-            A autonomia no aprendizado pode ser desafiadora. Exploraremos as dificuldades enfrentadas pelos autodidatas, como a autodisciplina, a seleção de recursos adequados e a manutenção da motivação ao longo do tempo.
-        </div>
-        <div class="class4">
-            <h3>O Papel da Tecnologia no Autodidatismo Moderno:</h3>
-            A tecnologia desempenha um papel fundamental na expansão do autodidatismo. Saiba como a internet, os cursos online e as ferramentas de aprendizado estão transformando a forma como as pessoas adquirem conhecimento na era moderna.
-        </div>
-        <div class="class4">
-            <h3>Vantagens do Aprendizado Contínuo:</h3>
-            Descubra como o autodidatismo permite que as pessoas se mantenham relevantes em um mercado de trabalho em constante mudança. A aprendizagem contínua fortalece a capacidade de adaptação e abre portas para novas oportunidades.
+        <div class="linha-vertical"></div>
+        <div class="small-container" id="smallContainer">
+            <!-- Small Blog Cards -->
         </div>
     </div>
 
-    <div class="audio">
-        <audio id="meuAudio" src="o link pra musica" controls></audio>
-        <div>
-            <button id="play">Play</button>
-            <button id="pause">Pause</button>
-            <input id="seek" type="range" min="0" value="0">
-        </div>
-    </div>
 
-    <script src="html/js/controles-audio.js"></script>
-        <script src="all.js"></script>
+    <script src="all.js"></script>
+    <script src="login.js"></script>
 </body>
+
 </html>

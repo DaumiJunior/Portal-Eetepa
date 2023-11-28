@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Agropecuária</title>
+    <link rel="stylesheet" type="text/css" href="style/secund.css">
+</head>
+
+<header style="background-color: #343a40; color: white; text-align: center; padding: 20px;">
+    <img class="logo" src="style/assets/logo_eetepa.png" alt="Logo EETEPA" srcset="">
+    <h1>Portal EETEPA</h1>
+</header>
+
+<nav class="hotbar">
+    <a href="/Quiz/quizP1.html" onclick="highlightLink(this)">Home</a>
+    <a href="#" onclick="showCategoriasDropdown()">Cursos</a>
+    <div id="categoriasDropdown">
+        <a href="#">Cursos Técnicos</a>
+        <a href="/Quiz/informatica.html">Informatica(Ti)</a>
+        <a href="/Quiz/mineração.html">Mineração</a>
+        <a href="/Quiz/agropecuaria.html">Agropecuaria</a>
+        <a href="/Quiz/edificações.html">Edificações</a>
+        <a href="/Quiz/redecom.html">Rede de computadores</a>
+        <a href="/Quiz/manucom.html">Manutenção de computadores</a>
+    </div>
+    <a class="here" href="/Quiz/quiz.html" onclick="highlightLink(this)">Quiz</a>
+    <a href="/Quiz/forum.html" onclick="highlightLink(this)">Aluno Sessão</a>
+    <a href="https://app.proesc.com/boletim" onclick="highlightLink(this)">Boletim Online</a>
+    <a href="https://github.com/DaumiJunior/Quiz" onclick="highlightLink(this)">Sobre</a>
+</nav>
+
+<body>
+    <p class="pontos"></p>
+
+    <!-- Question 1 -->
+    <div class="box1">
+        <div class="head">
+            <h2>Curso Técnico em Agropecuária</h2>
+            <h3>O que é a pecuária de corte?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta1" value="a"> a) Produção de leite e derivados
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="b"> b) Produção de carne bovina
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="c"> c) Produção de carne de aves
+            </label><br>
+            <label>
+                <input type="radio" name="resposta1" value="d"> d) Produção de carne suína
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="box2">
+        <div class="head">
+            <h3>Qual é a importância da rotação de culturas na agricultura?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta2" value="a"> a) Aumentar a produção de uma única cultura
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="b"> b) Reduzir a diversidade de plantas no solo
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="c"> c) Melhorar a fertilidade do solo e reduzir pragas
+            </label><br>
+            <label>
+                <input type="radio" name="resposta2" value="d"> d) Aumentar a dependência de pesticidas
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="box3">
+        <div class="head">
+            <h3>O que é a inseminação artificial em bovinos?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta3" value="a"> a) Método de reprodução onde os animais escolhem seus parceiros
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="b"> b) Introdução de genes modificados em animais
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="c"> c) Processo de fertilização do solo
+            </label><br>
+            <label>
+                <input type="radio" name="resposta3" value="d"> d) Introdução controlada de sêmen no sistema reprodutivo da fêmea
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="box4">
+        <div class="head">
+            <h3>O que é o plantio direto na agricultura?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta4" value="a"> a) Método de plantio que utiliza maquinário pesado
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="b"> b) Prática que envolve o preparo mínimo do solo
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="c"> c) Plantio realizado sem o uso de sementes
+            </label><br>
+            <label>
+                <input type="radio" name="resposta4" value="d"> d) Cultivo de plantas em estufas
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="box5">
+        <div class="head">
+            <h3>O que é a apicultura?</h3>
+        </div>
+        <form>
+            <label>
+                <input type="radio" name="resposta5" value="a"> a) Cultivo de árvores frutíferas
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="b"> b) Criação de abelhas para produção de mel e outros produtos
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="c"> c) Prática de criação de aves
+            </label><br>
+            <label>
+                <input type="radio" name="resposta5" value="d"> d) Produção de peixes em tanques
+            </label><br>
+            <input type="submit" value="Responder">
+        </form>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="audio">
+        <audio id="meuAudio" src="style/assets/SnapInsta.io - 18 Facas na Mão - Ninja - 18 facadas no 5º vigia 🔪😳 (só os fortes compreenderão) _ Costa Beats (256 kbps).mp3" controls></audio>
+        <div>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <input id="seek" type="range" min="0" value="0">
+        </div>
+    </div>
+
+    <script src="js/controles-audio.js"></script>
+    <script src="js/points4.js"></script>
+    <script src="/Quiz/all.js"></script>
+</body>
+
+</html>
