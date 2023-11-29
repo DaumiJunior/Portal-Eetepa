@@ -207,15 +207,36 @@ articles.forEach(function(article) {
         
 
         const dadosCarrossel = [
-          { titulo: 'Avisos', conteudo: 'No dia 29 de novenbro havera a Feitec (Feira de tecnologia da Eetepa)' },
-          { titulo: 'Avisos', conteudo: 'No dia 24 do 11, ouve um evento na eetepa para comemorar do dia da conciencia negra' },
-          { titulo: 'Avisos', conteudo: 'No dia 22 do 11, ouve um evento no centro cultural para homenagear o dia da conciencia negra' },
-          { titulo: 'Avisos', conteudo: 'Exemplos...' },
-          { titulo: 'Avisos', conteudo: 'Exemplos...' },
-          { titulo: 'Avisos', conteudo: 'Exemplos...' },
-          { titulo: 'Avisos', conteudo: 'Exemplos...' }
+          { 
+            titulo: 'Avisos Importantes', 
+            conteudo: 'No dia 29 de novembro, ocorrerá a Feitec (Feira de Tecnologia da Eetepa), uma oportunidade única para explorar inovações e tecnologias emergentes.'
+          },
+          { 
+            titulo: 'Evento Memorável', 
+            conteudo: 'Em 24 de novembro, a Eetepa realizou um evento especial em comemoração ao Dia da Consciência Negra, promovendo a valorização da diversidade e inclusão.'
+          },
+          { 
+            titulo: 'Celebração Cultural', 
+            conteudo: 'Em 22 de novembro, o Centro Cultural sediou um emocionante evento em homenagem ao Dia da Consciência Negra, enaltecendo a rica herança cultural afro-brasileira.'
+          },
+          { 
+            titulo: 'Avisos Importantes', 
+            conteudo: 'Não se esqueça de participar das atividades planejadas para os próximos dias. Sua presença é fundamental para o sucesso desses eventos!'
+          },
+          { 
+            titulo: 'Participe e Conecte-se', 
+            conteudo: 'A Eetepa convida você a se envolver nas atividades acadêmicas e culturais. Seja parte ativa na construção de uma comunidade educacional mais forte e inclusiva.'
+          },
+          { 
+            titulo: 'Destaque-se!', 
+            conteudo: 'Estudantes brilhantes são a base do nosso sucesso. Continue se esforçando e alcançando suas metas acadêmicas. Seja a inspiração que todos admiram.'
+          },
+          { 
+            titulo: 'Fique Atualizado', 
+            conteudo: 'Acesse regularmente os canais de comunicação da escola para obter informações sobre eventos futuros, oportunidades de aprendizado e novidades emocionantes.'
+          },
           // Adicione mais dados conforme necessário
-      ];
+        ];
 
       const itensPorPagina = 3; // Número de itens por página
       let paginaAtual = 1;
